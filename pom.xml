@@ -23,6 +23,13 @@
     <name>cloudgroovyconsole</name>
     <description>cloudgroovyconsole</description>
 
+    <repositories>
+        <repository>
+            <id>project-repository</id>
+            <url>file://${project.basedir}/../maven</url>
+        </repository>
+    </repositories>
+
     <modules>
         <module>all</module>
         <module>core</module>
@@ -583,6 +590,12 @@ Bundle-DocURL:
                 <artifactId>slf4j-test</artifactId>
                 <version>1.0.1</version>
                 <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.icfnext.groovy</groupId>
+                <artifactId>console</artifactId>
+                <version>14.0.0</version>
+                <type>zip</type>
             </dependency>
         </dependencies>
     </dependencyManagement>
