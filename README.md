@@ -1,4 +1,4 @@
-# Sample AEM project template
+# AEMaaCS Groovy Console
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
 
@@ -124,3 +124,7 @@ A ClientLib will consist of the following files and directories:
 The project comes with the auto-public repository configured. To setup the repository in your Maven settings, refer to:
 
     http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
+
+## Groovy Console
+
+The groovy console is stored in the project as a local maven repository and then deployed as part of a Cloud Manager pipeline execution.
